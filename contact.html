@@ -12,14 +12,14 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body style="background-color: skyblue; scroll-behavior: smooth;">
+<body class="bg-secondary bg-gradient">
     <!-- Navbar -->
-    <nav style="background-color:aliceblue;" class="navbar navbar-expand-lg bg-dark border-bottom border-secondary fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg border-bottom border-secondary bg-dark bg-gradient fixed-top">
+        <div class="container">
             <a class="navbar-brand text-light" href="index.html"><i class="fas fa-code"></i> Evelyn Vasquez</a>
-            <button class="navbar-toggler text-light border-0" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler text-dark border-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon bg-primary-subtle"></span>
+                <span class="navbar-toggler-icon text-light-emphasis"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
@@ -29,9 +29,9 @@
             </div>
         </div>
     </nav>
-    <section class="container-fluid">
-        <h1 style="margin-top: 100px;" class="text-center mb-5">Contact Form</h1>
-        <form id="contact-form">
+    <section class="container bg-secondary bg-gradient pl-5">
+        <h1 style="margin-top: 100px;" class="text-center mb-3">Contact Form</h1>
+        <form id="contact-form" aria-hidden="true">
             <!-- To simplify the tutorial, the value is static. -->
 
             <input type="hidden" name="time" value="Mar 10 2025 08:46">
@@ -57,7 +57,7 @@
                     <textarea class="form-control" id="message" name="message" placeholder="..." required></textarea>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-4" value="send">Send</button>
+            <button type="submit" class="btn btn-primary my-4" value="send">Send</button>
 
         </form>
     </section>

@@ -6,25 +6,7 @@
 }
 body {
   background-color: #000000;
-  color: #ffffff;
   scroll-behavior: smooth;
-}
-
-.btn-teal {
-  background-color: var(--teal);
-  color: #fff;
-}
-
-.btn-teal:hover {
-  background-color: #17a589;
-}
-
-.teal-link {
-  color: var(--teal);
-}
-
-.teal-link:hover {
-  text-decoration: underline;
 }
 
 .form-control,
