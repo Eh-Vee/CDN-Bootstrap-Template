@@ -13,7 +13,6 @@ body {
 .btn-teal {
   background-color: var(--teal);
   color: #fff;
-  border: none;
 }
 
 .btn-teal:hover {
@@ -75,3 +74,8 @@ footer {
   color: #ff5e5e;
 }
 
+@media only screen and (max-width: 767px){
+  .footer *{
+    text-align:center!important
+  }
+}

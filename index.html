@@ -10,20 +10,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body style="background-color: skyblue; scroll-behavior: smooth;">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-secondary fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand text-light" href="index.html"><i class="fas fa-code"></i> Evelyn Vasquez</a>
-      <button class="navbar-toggler text-light border-0" type="button" data-bs-toggle="collapse"
+  <nav style="background-color:aliceblue;" class="navbar navbar-expand-lg border-bottom border-secondary fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-dark" href="index.html"><i class="fas fa-code"></i> _______</a>
+      <button class="navbar-toggler text-dark border-0" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon bg-primary-subtle"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link text-light" href="index.html">About</a></li>
-          <li class="nav-item"><a class="nav-link text-light" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -33,9 +33,10 @@
   <!-- Hero -->
   <section class="py-5 mt-4" id="home">
     <div class="container text-center">
-      <h1 class="display-4">Hi, I'm Evelyn</h1>
+      <h1 class="display-4">Hi, I'm _______</h1>
       <p class="lead">Web Developer <i class="fas fa-laptop-code"></i> | UI/UX Designer</p>
-      <a href="/contact.html"><button type="button" class="btn btn-info mt-5 ">Contact Me</button></a>
+      <a href="/contact.html"><button type="button" style=" border: 1px solid aliceblue"
+          class="btn btn-info mt-5 ">Contact Me</button></a>
     </div>
   </section>
 
@@ -46,8 +47,9 @@
       <div class="row align-items-center">
         <div class="mb-4 text-center">
           <h3>
-            I'm a passionate front-end web developer with a love for responsive, user-centered design. I specialize in
-            HTML, CSS, JavaScript, and modern frameworks like Bootstrap and React.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est libero, tincidunt in faucibus vel, eleifend
+            vel eros. Cras iaculis sed metus in fermentum. Etiam tortor est, fermentum non dolor eget, malesuada
+            pellentesque lorem. Curabitur sed mauris dui. Proin vehicula magna sapien, eget rutrum ante aliquam vel.
           </h3>
 
           <div class="justify-content-center">
@@ -64,56 +66,55 @@
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="py-5">
-    <div style="grid-template-columns: 1fr 1fr;" class="d-flex justify-content-center vh-100 align-items-center gap-2">
-      <div class="card p-2" style="width: 20rem;">
-        <img src="..." class="justify-content-center align-content-center card-img-top" alt="...">
+  <section style="background-color: aliceblue;" id="projects" class=“py-5”>
+    <h1 id="projects-title" style="text-align: center;" class="py-5">Projects</h1>
+    <div class="row">
+      <div class="card p-2 col-3">
+        <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Project 1</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
             content.</p>
-          <a class="btn btn-primary" href="#" role="button">Link</a>
+          <a class="btn btn-outline-info" href="#" role="button">Demo</a>
         </div>
       </div>
-      <div class="card p-2" style="width: 20rem;">
+      <div class="card p-2 col-3">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Project 2</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
             content.</p>
-          <a class="btn btn-primary" href="#" role="button">Link</a>
+          <a class="btn btn-outline-info" href="#" role="button">Demo</a>
         </div>
       </div>
-      <div class="card p-2" style="width: 20rem;">
+      <div class="card p-2 col-3">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Project 3</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
             content.</p>
-          <a class="btn btn-primary" href="#" role="button">Link</a>
+          <a class="btn btn-outline-info" href="#" role="button">Demo</a>
         </div>
       </div>
-      <div class="card p-2" style="width: 20rem;">
+      <div class="card p-2 col-3">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Project 4</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
             content.</p>
-          <a class="btn btn-primary" href="#" role="button">Link</a>
+          <a class="btn btn-outline-info" href="#" role="button">Demo</a>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer py-3 text-center">
-    <div class="container-fluid">
-      <p class="mb-0">© 2025 Evelyn Vasquez — Built with <i class="fab fa-bootstrap"></i> Bootstrap</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer pt-5 pb-3 text-center">
+      <div class="container-fluid">
+        <p class="mb-0">© 2025 Evelyn Vasquez — Built with <i class="fab fa-bootstrap"></i> Bootstrap</p>
+      </div>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
